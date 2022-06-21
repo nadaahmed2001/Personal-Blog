@@ -1,0 +1,246 @@
+@import url("ResponsiveHome.css");
+
+* {
+    margin: 0%;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.top{
+    background-image: url("../images/istockphoto-1040055260-170667a.jpg");
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px ;
+    -webkit-text-stroke: 2px white;
+}
+
+
+.navbar {
+    background-color:cornflowerblue;
+
+}
+
+
+.navbar li {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 29px;
+}
+
+
+.navbar li a {
+    color: cornsilk;
+}
+
+
+.navbar li a:hover{
+    background-color: white;
+    color: black;
+    cursor:grab;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+
+.box{
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid pink;
+    box-shadow:10px 10px 40px 5px pink;
+    align-items: center;
+    justify-content: center;
+    width:500px;
+    height: auto;
+    padding: 10px 20px; /*vertical horizontal*/
+    border-radius: 25px;
+    
+}
+
+
+.box h2{
+    color:  #FF69B4;
+    font-size: 40px;
+}
+
+
+.box:hover{
+    box-shadow:20px 20px 50px grey;
+
+}
+
+
+/*----- Box 1 -----*/
+#one{
+    text-align: center;
+}
+
+
+#one img{
+    margin-top: 5px;
+    border-radius: 30px;
+}
+
+
+#one p{
+    margin-top: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+
+#one button{
+    
+    background-color: palevioletred;
+    font: 30px bold;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+#one button:hover{
+    border: 2px solid black;
+    cursor:grab;
+    
+}
+
+
+/*----- Box 2 -----*/
+#two{
+    text-align: center;
+}
+
+
+#two img{
+   
+    margin-top: 5px;
+    border-radius: 30px;
+}
+
+
+#two p{
+    margin-top: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+
+#two button{
+    
+    background-color: palevioletred;
+    font: 30px bold;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+#two button:hover{
+    border: 2px solid black;
+    cursor:grab;
+}
+
+
+/*----- Box 3 -----*/
+#three{
+    text-align: center;
+}
+
+
+#three img{
+   
+    margin-top: 5px;
+    border-radius: 30px;
+}
+
+
+#three p{
+    margin-top: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+
+#three button{
+    
+    background-color: palevioletred;
+    font: 30px bold;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+#three button:hover{
+    border: 2px solid black;
+    cursor:grab;
+}
+
+
+/*----- Box 4 -----*/
+#four{
+    text-align: center;
+}
+
+
+#four img{
+   
+    margin-top: 5px;
+    border-radius: 30px;
+}
+
+
+#four p{
+    margin-top: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+
+#four button{
+    
+    background-color: palevioletred;
+    font: 30px bold;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+#four button:hover{
+    border: 2px solid black;
+    cursor:grab;
+}
+
+
+/*--- Footer ---*/
+.myFooter{
+   background-color:rgb(100,149,237, 0.8);
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+
+.myFooter h3,p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    
+}
+
+
+#heart{
+    color: crimson;
+}
+
+
+

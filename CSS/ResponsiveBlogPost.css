@@ -1,0 +1,50 @@
+@import url("BlogPost.css");
+
+/*---Responsive Layout---*/
+@media only screen and (min-width: 300px) and (max-width:900px){
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+
+
+    .authorInfo {
+        display: flex;
+        flex-direction: column;
+       /* width: auto; */
+    }
+
+
+    .boxes{
+        background-color: lightgray;
+        margin-left: 0%;
+        margin-top: 15px;
+        width:auto;
+        height: auto;
+        word-wrap: break-word;
+        box-shadow: 5px 5px 20px  black;
+        text-align: left;
+        padding: 0 0; /*vertical horizontal*/
+        border-radius: 15px;
+    }
+
+    #bio{
+        width: auto;
+        word-wrap: break-word;
+        height: auto;
+    }
+
+    
+    /*--Footer--*/
+    .myFooter h3,p{
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        
+    }
+
+    
+
+}

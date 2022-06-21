@@ -1,0 +1,179 @@
+/* @import url("ResponsiveBlogPost.css"); */
+
+* {
+    margin: 0%;
+    font-family: 'Cuprum', sans-serif;
+}
+
+
+.top{
+    background-image: url("../images/istockphoto-1040055260-170667a.jpg");
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px ;
+    -webkit-text-stroke: 2px white;
+}
+
+
+.navbar {
+    background-color:cornflowerblue;
+    margin-bottom: 20px;
+
+}
+
+
+.navbar li {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 29px;
+}
+
+
+.navbar li a {
+    color: cornsilk;
+}
+
+
+.navbar li a:hover{
+    background-color: white;
+    color: black;
+    cursor:grab;
+}
+
+
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.authorInfo {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+
+.authorInfo h2{
+    text-align: center;
+}
+
+
+.authorInfo h2 span{
+    display: inline;
+    color:  black;
+    font-size: 60px;
+    -webkit-text-stroke: 2px white;
+ 
+    border: solid black;
+    border-width: 2px 0 2px 0;
+    
+}
+
+
+.authorInfo h3{
+    color:  #FF69B4;
+    font-size: 30px;
+}
+
+
+.authorInfo p {
+    color: black;
+    font-size: 20px;
+}
+
+
+.boxes{
+    background-color: lightgray;
+    margin-left: 0%;
+    margin-top: 25px;
+    width:max-content;
+    box-shadow: 5px 5px 20px  black;
+    text-align: left;
+    padding: 20px 30px; /*vertical horizontal*/
+    border-radius: 15px;
+}
+
+
+#bio{
+    width: 600px;
+    word-wrap: break-word;
+    height: auto;
+}
+
+
+.authorInfo img {
+    border-radius: 50%;
+}
+
+
+.social {
+    margin-top: 50px;
+    background-color: lightgray;
+    width:max-content;
+   /* height:fit-content;*/
+    height: 100%;
+    box-shadow: 5px 5px 20px  black;
+    text-align: center;
+    padding: 30px 40px; /*vertical horizontal*/
+    border-radius: 15px;
+}
+
+
+.social h2 {
+    color:  #FF69B4;
+    font-size: 30px;
+}
+
+
+.social li {
+    list-style-type: square;
+}
+
+
+.social li a{
+    font-size: 20px;
+    color: navy;
+    text-decoration: underline;
+}
+
+
+.social li a:hover {
+    color: lightseagreen;
+}
+
+
+/*--- Footer ---*/
+.myFooter{
+    background-color:rgb(100,149,237, 0.8);
+     padding-top: 15px;
+     padding-bottom: 5px;
+     margin-top: 30px;
+ }
+
+
+ #heart{
+     color: crimson;
+ }
+
+
+.myFooter h3{
+    text-align: center;
+     font-size: 25px;
+     color: white;
+ }
+
+
+ .myFooter p{
+    text-align: center;
+     font-size: 25px;
+     color: white;
+ }
+
+
+ /*Question !!: can't combine h3 and p with multiple selectors in the footer*/
+
+ 
